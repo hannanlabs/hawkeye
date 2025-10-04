@@ -7,7 +7,7 @@ export default function Header() {
     <header className="relative z-20 flex items-center justify-between p-6">
       <div className="flex items-center">
         <Link href="/" className="text-2xl font-semibold text-white tracking-tight hover:opacity-80 transition-opacity">
-          Sentra
+          Hawkeye
         </Link>
       </div>
 

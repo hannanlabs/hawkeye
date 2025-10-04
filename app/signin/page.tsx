@@ -23,7 +23,7 @@ export default function SignInPage() {
           {/* Logo */}
           <div className="text-center mb-8">
             <Link href="/" className="inline-block">
-              <span className="text-3xl font-semibold text-white tracking-tight">Sentra</span>
+              <span className="text-3xl font-semibold text-white tracking-tight">Hawkeye</span>
             </Link>
             <p className="text-white/60 text-sm mt-2">Sign in to your account</p>
           </div>

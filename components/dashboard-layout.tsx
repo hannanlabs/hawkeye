@@ -18,7 +18,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
         <div className="flex items-center justify-between px-6 py-4">
           <div className="flex items-center gap-8">
             <Link href="/" className="text-2xl font-semibold text-gray-900 tracking-tight">
-              Sentra
+              Hawkeye
             </Link>
             <nav className="flex items-center gap-1">
               <button

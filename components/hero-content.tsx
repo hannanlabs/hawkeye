@@ -42,20 +42,6 @@ export default function HeroContent() {
           </div>
         </div>
 
-        <div className="flex items-center gap-4 flex-wrap">
-          <Link
-            href="/signin"
-            className="px-8 py-3 rounded-full bg-white text-black font-normal text-xs transition-all duration-200 hover:bg-white/90 cursor-pointer"
-          >
-            Get Started
-          </Link>
-          <Link
-            href="#pricing"
-            className="px-8 py-3 rounded-full bg-transparent border border-white/30 text-white font-normal text-xs transition-all duration-200 hover:bg-white/10 hover:border-white/50 cursor-pointer"
-          >
-            View Pricing
-          </Link>
-        </div>
       </div>
     </main>
   )

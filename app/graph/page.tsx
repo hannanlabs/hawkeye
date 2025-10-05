@@ -85,7 +85,9 @@ export default function GraphPage() {
           highlight: "#DC2626",
         },
         smooth: {
+          enabled: true,
           type: "continuous",
+          roundness: 0.5,
         },
         font: {
           size: 10,

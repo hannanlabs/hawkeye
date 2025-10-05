@@ -10,12 +10,9 @@ export default function GraphPage() {
   useEffect(() => {
     if (!containerRef.current) return
 
-    // Hypothetical insider trading collusion network
     const nodes = [
-      // Central company/stock
       { id: "NVDA", label: "NVIDIA\n(NVDA)", group: "company", size: 30 },
 
-      // Politicians and insiders
       { id: "pelosi", label: "Nancy Pelosi\nSpeaker", group: "politician" },
       { id: "paul_pelosi", label: "Paul Pelosi\nSpouse", group: "spouse" },
       { id: "exec1", label: "Tech Executive\nAnonymous", group: "executive" },
@@ -24,15 +21,12 @@ export default function GraphPage() {
       { id: "fund_mgr", label: "Hedge Fund Mgr\nWall Street", group: "finance" },
     ]
 
-    // Edges showing connections with varying weights (strength of connection)
     const edges = [
-      // Trades to NVDA
       { from: "pelosi", to: "NVDA", value: 10, label: "$5M Buy\n2024-06-15" },
       { from: "paul_pelosi", to: "NVDA", value: 10, label: "$3M Buy\n2024-06-14" },
       { from: "senator1", to: "NVDA", value: 8, label: "$2M Buy\n2024-06-16" },
       { from: "fund_mgr", to: "NVDA", value: 7, label: "$10M Buy\n2024-06-15" },
 
-      // Collusion connections (suspicious associations)
       { from: "pelosi", to: "paul_pelosi", value: 9, label: "Family\nSame Day Trade", dashes: true },
       { from: "pelosi", to: "senator1", value: 6, label: "Meeting\n2 days prior", dashes: true },
       { from: "pelosi", to: "lobbyist1", value: 5, label: "Lunch\n1 week prior", dashes: true },

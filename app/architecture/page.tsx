@@ -33,6 +33,16 @@ export default function ArchitecturePage() {
               className="rounded-lg shadow-lg w-full max-w-5xl"
             />
           </div>
+
+          <div className="flex justify-center">
+            <Image
+              src="/revision.png"
+              alt="Revision Architecture"
+              width={1200}
+              height={600}
+              className="rounded-lg shadow-lg w-full max-w-5xl"
+            />
+          </div>
         </div>
       </main>
     </div>

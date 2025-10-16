@@ -1,4 +1,4 @@
-## Hawkeye - Autonomous AI agents for Market Intelligence
+## Hawkeye - AI Agent for Market Intelligence
 <br>
 HawkEye is an intelligent surveillance platform that deploys multiple AI agents to track trades, filings, and news in real time. Each agent specializes in tasks like entity linking, anomaly detection, and signal scoring—working together to surface relationships between investors, companies, and events. Built for compliance teams, researchers, and regulators, HawkEye transforms fragmented market data into explainable, real-time insight.
 <br>
